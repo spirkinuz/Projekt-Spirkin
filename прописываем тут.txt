@@ -1,0 +1,16 @@
+def insert_data_to_db(device_id, device_data):
+    try:
+        conn = mysql.connector.connect(
+            host="localhost",
+            user="admin",
+            password="Formula1",
+            database="dataspirkin"
+        )
+
+
+понятно е дело
+
+host это то где установлена MYSQL
+user - это логин к mysql
+password - естественно пароль от mysql
+database - понятное дело имя базы данных
